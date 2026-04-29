@@ -211,7 +211,7 @@ def main() -> None:
         )
         custom_model = st.text_input("Custom model", placeholder="gemini-3-flash-preview")
         model_name = custom_model.strip() or selected_model
-        search = st.toggle("Google Search grounding", value=False)
+        search = st.toggle("Google Search grounding", value=True)
 
         if st.button("Clear chat", use_container_width=True):
             st.session_state.messages = []
