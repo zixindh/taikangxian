@@ -1,0 +1,14 @@
+[
+  {
+    "id": "gemini-3.1-pro-preview",
+    "type": "chat"
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "type": "chat"
+  },
+  {
+    "id": "gemini-3-pro-preview",
+    "type": "chat"
+  }
+]
