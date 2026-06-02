@@ -2,6 +2,19 @@
 
 Minimal Streamlit chat UI for Gemini using the direct Gemini API.
 
+## Features
+
+- **Custom models** — type a model name and press Enter (or "Add model") to add it
+  to the dropdown instantly; it is selected and used right away.
+- **Default model** — "Set as default" persists your choice for future sessions
+  (stored in Notion when configured, with a local `prefs.json` fallback). Custom
+  models you add are remembered too.
+- **Images** — attach images directly in the chat box (upload / drag-and-drop) or
+  paste from the clipboard via the sidebar button. Vision works across turns.
+- **Notion logging** — every exchange is saved to a Notion database; the sidebar
+  links to that database (and to the preferences page).
+- **Wide layout** — content fills more of the screen with minimal side margins.
+
 ## Streamlit Cloud setup
 
 1. Connect this repository in Streamlit Cloud.

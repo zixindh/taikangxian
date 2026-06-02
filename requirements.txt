@@ -1,2 +1,4 @@
 google-genai
-streamlit
+streamlit>=1.43
+streamlit-paste-button
+Pillow
